@@ -1,0 +1,177 @@
+<html>
+	<head>
+		<style>
+			*
+			{
+				margin:0px;
+				padding:0px;
+			}
+			body
+			{
+				background-image:url("uploads/1.jpg");
+			}
+			#site_wrap
+			{
+				width:100%;
+				height:auto;
+				border:2px solid red;
+				overflow:hidden;
+			}
+			#header
+			{
+				width:100%;
+				height:auto;
+				/*border:2px solid yellow;*/
+				background-color:white;
+				overflow:hidden;
+			}
+			#Logo
+			{
+				width:250px;
+				height:52px;
+				/*border:2px solid pink;*/
+				margin:10px 0px 10px 24px;
+				float:left;
+			}
+			#Menus
+			{
+				width:890px;
+				height:52px;
+				/*border:2px solid tomato;*/
+				margin:10px 0px 10px 300px;
+				float:left;
+			}
+			#Menus > ul
+			{
+				list-style-type:none;
+			}
+			#Menus > ul > li
+			{
+				width:110px;
+				height:52px;
+				text-align:center;
+				line-height:52px;
+				float:left;
+			}
+			#Menus > ul > li:hover
+			{
+				width:108px;
+				height:52px;
+				background-color:lightgreen;
+				text-align:center;
+				line-height:52px;
+				border-left:5px solid brown;
+				border-right:5px solid brown;
+				float:left;
+			}
+			#Menus > ul > li > a
+			{
+				text-decoration:none;
+				text-transform:uppercase;
+				color:black;
+				font-weight:bold;
+				font-size:20px;
+			}
+			#Menus > ul > li > a:hover
+			{
+				text-decoration:none;
+				text-transform:uppercase;
+				color:red;
+				font-weight:bold;
+				font-size:20px;
+			}
+			#Content
+			{
+				width:100%;
+				height:658px;
+				border:2px solid violet;
+			}
+			#First
+			{
+				width:1000px;
+				height:250px;
+				border:20px solid brown;
+				margin:150px 0px 0px 250px;
+			}
+			#Second
+			{
+				width:960px;
+				height:210px;
+				border:20px solid white;
+			}
+			#Third
+			{
+				width:920px;
+				height:170px;
+				border:20px solid lightgreen;
+				background-color:lightgreen;
+				color:orange;
+				font-family:calbri;
+				text-align:center;
+				font-size:40px;
+			}
+			#Third > p
+			{
+				color:red;
+				font-size:38.5px;
+				font-family:algerian;
+				text-align:center;
+			}
+			#Button
+			{
+				width:140px;
+				height:50px;
+				color:red;
+				margin-top:20px;
+				background-color:lightgreen;
+				border:5px solid brown;
+				border-radius:15px;
+				cursor:pointer;
+				font-size:20px;
+			}
+			#Button:hover
+			{
+				width:140px;
+				height:50px;
+				color:white;
+				margin-top:20px;
+				background-color:black;
+				border:5px solid brown;
+				cursor:pointer;
+				font-size:20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="site_wrap">
+			<div id="header">
+				<div id="Logo">
+					<img src="images/logo.png" width="250px" height="52"/>
+				</div>
+				<div id="Menus">
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">menu</a></li>
+						<li><a href="#">gallery</a></li>
+						<li><a href="#">chef</a></li>
+						<li><a href="#">pricing</a></li>
+						<li><a href="#">blog</a></li>
+						<li><a href="#">contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="Content">
+				<div id="First">
+					<div id="Second">
+						<div id="Third">
+						<p>Awesome Restaurent,Best Recipes for Dinner</p>
+						Specialized in design and coding websites.<br>
+						<input type="Button" value="Learn More" id="Button"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
